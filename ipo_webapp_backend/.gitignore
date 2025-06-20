@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+
+# Migration files (optional — usually kept under version control though)
+# ** Uncomment if you don't want migrations in repo **
+# */migrations/
+
+# Node modules (if frontend with ReactJS/Angular is inside)
+node_modules/
+build/
+dist/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
