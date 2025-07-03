@@ -35,16 +35,32 @@ This is a web application developed as part of my internship at **Bluestock Fint
 
 ---
 
-## 📁 Project Structure
+📁bluestock_ipo_web/               # Main Project Folder
+│
+├── ipo_webapp_backend/          # Django Backend Project
+│   ├── ipo_project/             # Django Project Settings & URLs
+│   │   ├── __init__.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   │
+│   ├── ipo_app/                 # Django App for IPO Data
+│   │   ├── migrations/
+│   │   │   └── __init__.py
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── serializers.py       # For API (if made)
+│   │   ├── urls.py              # App-level URLs
+│   │   └── views.py             # API views
+│   │
+│   ├── media/                   # Uploaded Media Files (logos, PDFs)
+│   │
+│   ├── .env                     # Environment Variables File (hidden)
+│   ├── db.sqlite3 / ipo_db      # Database file (if using SQLite) / PostgreSQL connection via .env
+│   └── manage.py                # Django
 
-bluestock_ipo_web/
-├── ipo_webapp_backend/
-│ ├── ipo_project/
-│ ├── ipo_app/
-│ ├── media/
-│ ├── manage.py
-│ └── .env
-└── README.md
 
 ---
 
