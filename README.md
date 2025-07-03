@@ -34,7 +34,7 @@ This is a web application developed as part of my internship at **Bluestock Fint
 - **Deployment-Ready Code:** Configured with `.env` for sensitive credentials
 
 ---
-
+```
 📁bluestock_ipo_web/               # Main Project Folder
 │
 ├── ipo_webapp_backend/          # Django Backend Project
@@ -61,7 +61,7 @@ This is a web application developed as part of my internship at **Bluestock Fint
 │   ├── db.sqlite3 / ipo_db      # Database file (if using SQLite) / PostgreSQL connection via .env
 │   └── manage.py                # Django
 
-
+```
 ---
 
 ## 📑 Features Implemented
@@ -76,13 +76,7 @@ This is a web application developed as part of my internship at **Bluestock Fint
 
 ---
 
-## 📦 Pending Tasks
 
-- API search, filter & ordering functionality
-- Frontend (React/HTML Bootstrap) integration based on provided Figma designs
-- Final deployment and documentation submission
-
----
 
 ## 👤 Author
 
